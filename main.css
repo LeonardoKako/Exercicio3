@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fefae0;
+}
+
+header {
+    text-align: center;
+    color: #fefae0;
+    background: #283618;
+    width: 100%;
+    height: 10vh;
+}
+nav {
+    background: #606c38;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #283618;
+
+}
+
+nav a:hover {
+    color: #ffff;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background: #bc6c25;
+    width: 80%;
+    height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+article {
+    width: 30%;
+    height: 80%;
+    background: #dda15e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.titulos {
+    position: absolute;
+    top: 10px;
+}
+
+time {
+    color: #fefae0;
+}
+
+
+p {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.leiamais {
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+    color: black;
+}
+
+#economia {
+    background: #0d911c;
+}
+
+#animais {
+    background: #3388ba;
+}
+
+#gastronomia {
+    background: #d53333;
+}
+
+
